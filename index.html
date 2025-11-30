@@ -415,7 +415,7 @@
 
     .hero-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.3fr);
+      grid-template-columns: minmax(0, 1.9fr) minmax(0, 1.1fr);
       gap: 22px;
       align-items: center;
     }
@@ -530,7 +530,7 @@
 
     .hero-visual {
       position: relative;
-      min-height: 230px;
+      min-height: 300px;
       border-radius: var(--radius-xl);
       overflow: hidden;
       border: 1px solid rgba(148, 163, 184, 0.4);
@@ -543,6 +543,8 @@
     .hero-visual-inner {
       position: absolute;
       inset: 0;
+      align-items: flex-start;
+      text-align: left;
       padding: 18px 18px 16px;
       display: flex;
       flex-direction: column;
@@ -596,7 +598,8 @@
     .hero-visual-bottom {
       position: relative;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
+      text-align: left;
       align-items: flex-end;
       z-index: 1;
       font-size: 0.75rem;
